@@ -1,0 +1,15 @@
+This work is licensed under a Creative Commons Attribution 4.0 International License. You are free to copy and redistribute the material in any medium or format, and to transform and build upon the material for any purpose, even commercially. You must give appropriate credit, provide a link to the license, and indicate if changes were made.
+
+License: https://creativecommons.org/licenses/by/4.0/
+
+Source: Hansen/UMD/Google/USGS/NASA
+
+Citation: Hansen, M. C., P. V. Potapov, R. Moore, M. Hancher, S. A. Turubanova, A. Tyukavina, D. Thau, S. V. Stehman, S. J. Goetz, T. R. Loveland, A. Kommareddy, A. Egorov, L. Chini, C. O. Justice, and J. R. G. Townshend. 2013. “High-Resolution Global Maps of 21st-Century Forest Cover Change.” Science 342 (15 November): 850–53. Data available on-line from: http://earthenginepartners.appspot.com/science-2013-global-forest.
+
+Summary of changes:
+
+- Dataset used: Year of gross forest cover loss event (lossyear)
+- Clipped the dataset to the State of Oregon
+- Clipped the dataset to exclude USFS, BLM, NPS, and BIA areas
+- Polygonized, simplified, and eliminated tiny polygons (< 1000 square meters)
+- Generated vector tiles
